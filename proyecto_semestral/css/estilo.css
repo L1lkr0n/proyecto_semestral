@@ -6,12 +6,21 @@ nav{
     margin: 0;
 }
 
-#izquierda{
+.flex-containerizq{
+    display: flex;
+    width: 600px;
+    height :80px;
+    background-color: white; 
+    padding:5px; 
+    border: 3px solid black;
+    color:black;
+    border-radius: 10px;
+    margin: 50px 30px 40px 10px ;
+}
+.flex-containerder{
+    display: flex;
     width: 400px;
     height :100px;
-    background-color: rgb(255, 239, 239);
-    top:20px;
+    background-color: rgb(255, 239, 239); 
 }
-.cuadroizq{
-    text-align: center;
-}
+
