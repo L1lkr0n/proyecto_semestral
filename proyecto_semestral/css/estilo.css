@@ -5,3 +5,13 @@ nav{
     background-color:rgb(118, 242, 238);
     margin: 0;
 }
+
+#izquierda{
+    width: 400px;
+    height :100px;
+    background-color: rgb(255, 239, 239);
+    top:20px;
+}
+.cuadroizq{
+    text-align: center;
+}
