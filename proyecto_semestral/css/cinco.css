@@ -1,7 +1,19 @@
-.row{
-    background-color: rgb(93, 178, 247);
+body{
+    background-image: linear-gradient(to right,#669999 0%, #99ccff 100%);
 }
 .flex-box{
+    display: flex;
+    width: 600px;
+    height :80px;
+    background-color: white; 
+    padding:10px; 
+    border: 3px solid black;
+    color:black;
+    border-radius: 10px;
+    margin: 50px 30px 40px 10px ;
+    justify-content: center;
+}
+.flex-petshop{
     display: flex;
     width: 600px;
     height :80px;
