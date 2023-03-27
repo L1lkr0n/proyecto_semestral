@@ -25,3 +25,7 @@ body{
     margin: 50px 30px 40px 10px ;
     justify-content: center;
 }
+col{
+    display:flex;
+    height:800px;
+}
