@@ -1,5 +1,5 @@
 .fondo{
-    background-image: linear-gradient(to right,#669999 0%, #99ccff 100%) !important;
+    background-image: linear-gradient(to right,#669999 0%, #99ccff 100%);
 }
 .flex-box{
     display: flex;
@@ -16,14 +16,16 @@
 .flex-petshop{
     display: flex;
     width: 600px;
-    height :80px;
-    background-color: white; 
-    padding:10px; 
-    border: 3px solid black;
-    color:black;
-    border-radius: 10px;
+    height :80px; 
+    padding:10px;
     margin: 50px 30px 40px 10px ;
     justify-content: center;
+}
+.flex-petshop{
+    border: 3px solid black;
+    border-radius: 10px;
+    color:black;
+    background-color: white;
 }
 col{
     display:flex;
