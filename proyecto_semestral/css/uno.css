@@ -1,5 +1,6 @@
 body{
     background-image: linear-gradient(to right,#669999 0%, #99ccff 100%);
+    justify-content: space-around;
 }
 nav{
     background-color:rgb(118, 242, 238);
@@ -15,7 +16,7 @@ nav{
     border: 3px solid black;
     color:black;
     border-radius: 10px;
-    margin: 50px 10px 30px 80px ;
+    margin: 50px 80px 30px 80px ;
     justify-content: center;
 }
 .flex-containerder{
@@ -27,7 +28,7 @@ nav{
     border:3px solid black;
     color:black;
     border-radius: 10px;
-    margin: 50px 0px 0px 0px;
+    margin: 50px 0px 0px 80px;
     justify-content: center;
 }
 .flex-containercollares{
@@ -39,7 +40,7 @@ nav{
     border: 3px solid black;
     color:black;
     border-radius: 10px;
-    margin: 40px 0px 0px 0px;
+    margin: 20px 0px 20px 90px;
     justify-content: center;
     
 }
@@ -52,7 +53,7 @@ nav{
     border: 3px solid black;
     color:black;
     border-radius: 10px;
-    margin: 40px 0px 0px 0px;
+    margin: 20px 0px 20px 90px;
     justify-content: center;
     
 }
@@ -64,7 +65,7 @@ nav{
     border: 3px solid black;
     color:black;
     border-radius: 10px;
-    margin: 40px 0px 0px 0px;
+    margin: 20px 0px 20px 90px;
     justify-content: center;
     
 }
