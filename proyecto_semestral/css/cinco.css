@@ -1,5 +1,5 @@
-.container-fluid{
-    background-image: linear-gradient(to right,#669999 0%, #99ccff 100%);
+.fondo{
+    background-image: linear-gradient(to right,#669999 0%, #99ccff 100%) !important;
 }
 .flex-box{
     display: flex;
