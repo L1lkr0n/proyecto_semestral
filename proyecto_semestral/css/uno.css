@@ -69,6 +69,51 @@ nav{
     justify-content: center;
     
 }
-.bi-list{
-    color:black;
+h1{
+    display:flex;
+    justify-content: center;
+}
+img{
+    border: 3px solid black;
+}
+.collarperro{
+    margin: 20px 0px 0px 90px;
+}
+.bandanaperro{
+    margin: 20px 0px 0px 90px;
+}
+.correaperro{
+    margin: 20px 0px 0px 90px;
+}
+.collargato{
+    margin: 20px 0px 0px 90px;
+}
+.bandanagatos{
+    margin: 20px 0px 0px 90px;
+}
+.correagatos{
+    margin: 20px 0px 0px 90px;
+}
+.collarp{
+    width: 300px;
+    height:250px;
+}
+.bandanap{
+    width: 300px;
+    height: 250px;
+}
+.correap{
+    width: 300px
+}
+.collarg{
+    width: 300px;
+    height:250px;
+}
+.bandanag{
+    width: 300px;
+    height:250px;
+}
+.correag{
+    width: 300px;
+    height:250px;
 }
