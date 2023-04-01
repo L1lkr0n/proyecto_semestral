@@ -1,28 +1,28 @@
 .fondo{
     background-image: linear-gradient(to right,#669999 0%, #99ccff 100%);
 }
-.flex-box{
+.container-box{
     display: flex;
-    width: 600px;
-    height :80px;
+    width: 650px;
+    height :120px;
     background-color: white; 
     padding:10px; 
     border: 3px solid black;
     color:black;
     border-radius: 10px;
-    margin: 50px 30px 40px 10px ;
+    margin: 250px 30px 40px 200px ;
     justify-content: center;
 }
-.flex-petshop{
+.container-petshop{
     display: flex;
-    width: 600px;
+    width: 300px;
     height :80px; 
     padding:10px;
-    margin: 50px 30px 40px 10px ;
+    margin: 50px 30px 40px 350px ;
     justify-content: center;
 }
-.flex-petshop{
-    border: 3px solid black;
+.container-petshop{
+    border: 5px solid black;
     border-radius: 10px;
     color:black;
     background-color: white;
@@ -30,4 +30,18 @@
 col{
     display:flex;
     height:800px;
+}
+.insta{
+    height:60px;
+    width: 60px;
+}
+.perrogato{
+    display: flex;
+    border: 3px solid black;
+    justify-content: center;
+    height:300px;
+    width: 400px;
+}
+.container-gp{
+    margin:200px 0px 0px 100px;
 }
