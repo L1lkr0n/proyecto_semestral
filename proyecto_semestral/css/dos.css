@@ -1,3 +1,12 @@
 body{
     background-image: linear-gradient(to right,#669999 0%, #99ccff 100%);
 }
+.menu-busqueda{
+    border:3px solid black;
+    height:600px;
+    width:300px;
+    margin: 80px 0px 0px 40px;
+}
+p{
+    margin:10px;
+}

@@ -117,3 +117,30 @@ img{
     width: 300px;
     height:250px;
 }
+<!--navbar-->
+
+.me-2{
+    border:3px solid black;
+    border-radius:10px;
+    width: 300px;
+}
+.buscador{
+    margin:0px 50px 0px 0px;
+}
+.btn-outline-succes{
+    border :3px solid black;
+}
+.btn-outline-succes:hover{
+    background-color:#99ccff;
+}
+.iconopatas{
+    width:40px;
+    height:40px;
+    border:none;
+}
+b{
+    font-size: 30px;
+}
+.bi::before{
+    background-size: 5rem 5rem;
+}
