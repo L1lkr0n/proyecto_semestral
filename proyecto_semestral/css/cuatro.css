@@ -1,3 +1,181 @@
 body{
     background-image: linear-gradient(to right,#669999 0%, #99ccff 100%);
 }
+.me-2{
+    border:3px solid black;
+    border-radius:10px;
+    width: 300px;
+}
+.buscador{
+    margin:0px 50px 0px 0px;
+}
+.btn-outline-succes{
+    border :3px solid black;
+}
+.btn-outline-succes:hover{
+    background-color:#99ccff;
+}
+.iconopatas{
+    width:40px;
+    height:40px;
+    border:none;
+}
+b{
+    font-size: 30px;
+}
+.bi::before{
+    background-size: 5rem 5rem;
+}
+.menu-busqueda{
+    border:3px solid black;
+    height:700px;
+    width:350px;
+    margin: 80px 0px 0px 40px;
+    border-radius: 10px;
+}
+.titulo{
+    margin-left: 40px;
+}
+.subtitulo{
+    margin-left: 40px;
+}
+.resultados{
+    border: 2px solid black;
+}
+.ordernar_por{
+    border:2px solid black;
+    margin-top: 20px;
+}
+.gato{
+    margin: 20px 0px 0px 20px;
+}
+.perro{
+    margin: 0px 0px 0px 20px;
+}
+/*cajas*/
+.correa-uno{
+    border: 4px solid black;
+    background-color: white;
+    margin: 50px 10px 0px 0px;
+    width:380px;
+    height:200px;
+}
+#primercorrea{
+    border: 3px solid black;
+    border-radius: 20px;
+    width:150px;
+    height:150px;
+    margin:20px 20px 0px 0px;
+}
+.correa-dos{
+    border: 4px solid black;
+    background-color: white;
+    margin: 50px 10px 0px 0px;
+    width:380px;
+    height:200px;
+}
+#segundacorrea{
+    border: 3px solid black;
+    border-radius: 20px;
+    width:150px;
+    height:150px;
+    margin:20px 20px 0px 0px;
+}
+.correa-tres{
+    border: 4px solid black;
+    background-color: white;
+    margin: 50px 10px 0px 0px;
+    width:380px;
+    height:200px;
+}
+#terceracorrea{
+    border: 3px solid black;
+    border-radius: 20px;
+    width:150px;
+    height:150px;
+    margin:20px 20px 0px 0px;
+}
+.correa-cuatro{
+    border: 4px solid black;
+    background-color: white;
+    margin: 50px 10px 0px 0px;
+    width:380px;
+    height:200px;
+}
+#cuartacorrea{
+    border: 3px solid black;
+    border-radius: 20px;
+    width:150px;
+    height:150px;
+    margin:20px 20px 0px 0px;
+}
+.correa-cinco{
+    border: 4px solid black;
+    background-color: white;
+    margin: 50px 10px 0px 0px;
+    width:380px;
+    height:200px;
+}
+#quintacorrea{
+    border: 3px solid black;
+    border-radius: 20px;
+    width:150px;
+    height:150px;
+    margin:20px 20px 0px 0px;
+}
+.correa-seis{
+    border: 4px solid black;
+    background-color: white;
+    margin: 50px 10px 0px 0px;
+    width:380px;
+    height:200px;
+}
+#sextacorrea{
+    border: 3px solid black;
+    border-radius: 20px;
+    width:150px;
+    height:150px;
+    margin:20px 20px 0px 0px;
+}
+.correa-siete{
+    border: 4px solid black;
+    background-color: white;
+    margin: 50px 10px 0px 0px;
+    width:380px;
+    height:200px;
+}
+#septimacorrea{
+    border: 3px solid black;
+    border-radius: 20px;
+    width:150px;
+    height:150px;
+    margin:20px 20px 0px 0px;
+}
+.correa-ocho{
+    border: 4px solid black;
+    background-color: white;
+    margin: 50px 10px 0px 0px;
+    width:380px;
+    height:200px;
+}
+#octavacorrea{
+    border: 3px solid black;
+    border-radius: 20px;
+    width:150px;
+    height:150px;
+    margin:20px 20px 0px 0px;
+}
+.correa-nueve{
+    border: 4px solid black;
+    background-color: white;
+    margin: 50px 10px 0px 0px;
+    width:380px;
+    height:200px;
+}
+#novenacorrea{
+    border: 3px solid black;
+    border-radius: 20px;
+    width:150px;
+    height:150px;
+    margin:20px 20px 0px 0px;
+}

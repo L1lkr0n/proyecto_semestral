@@ -79,6 +79,12 @@ img{
 .collarperro{
     margin: 20px 0px 0px 90px;
 }
+.collarperro img{
+    transition: all 0.3s;
+}
+.collarperro img:hover{
+    transform: scale(1.2);
+}
 .bandanaperro{
     margin: 20px 0px 0px 90px;
 }

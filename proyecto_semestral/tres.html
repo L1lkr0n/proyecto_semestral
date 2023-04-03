@@ -1,61 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link type="text/css" rel="stylesheet" href="css/tres.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="css/tres.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
+
 <body>
-    <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><i class="bi bi-person-fill"></i><b>Iniciar Sesion</b></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  <i class="bi bi-list"><b>Menu</b></i>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Acción</a></li>
-                  <li><a class="dropdown-item" href="#">Otra acción</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Algo más aquí</a></li>
-                </ul>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><b>PetShop</b><img class="iconopatas" src="img/patas.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!--menu-->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <i class="bi bi-list"><b>MENU</b></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Acción</a></li>
+              <li><a class="dropdown-item" href="#">Otra acción</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
+              <li><a class="dropdown-item" href="#">Algo más aquí</a></li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Busca en petshop" aria-label="Buscar">
-              <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
-            </form>
-            <a class="navbar-brand" href="InicioSesion.html"><i class="bi bi-person-fill"></i><b>Iniciar Sesion</b></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+          </li>
+        </ul>
+        <!--buscador-->
+        <div class="buscador">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Busca en petshop" aria-label="Buscar">
+            <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+        <!--inicio sesion-->
+        <a class="navbar-brand" href="InicioSesion.html"><i class="bi bi-person-fill"></i><b>Iniciar Sesion</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <!--grid-->
+    <div class="row">
+      <!--primer columna-->
+      <div class="col">
+              <div class="menu-busqueda">
+                <div class="titulo">
+                  <p>
+                  <h3>Perros y Gatos</h3>
+                  </p>
+                </div>
+                <div class="subtitulo">
+                  <h4>Bandanas</h4>
+                </div>
+                <div class="resultados">
+                  <p>9 Resultados en total</p>
+                </div>
+                <div class="ordernar_por">
+                  <div class="row">
+                    <div class="col-8">
+                      <p>Ordenar por:<br><b>Recomendados</b></p>
+                    </div>
+                    <div class="col-4">
+                      <i class="bi bi-arrow-down"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="g">
+                  <div class="row">
+                    <div class="col">
+                      <div class="gato">
+                        <p>
+                        <h3>Gato</h3>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <i class="bi bi-arrow-down"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="p">
+                  <div class="row">
+                    <div class="col">
+                      <div class="perro">
+                        <p>
+                        <h3>Perro</h3>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <i class="bi bi-arrow-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </div>
+      <!--segunda columna-->
+      <div class="col">
+        <div class="row">
+          <!--caja-->
+          <div class="bandana-uno">
+            <div class="row">
+              <!--datos-->
+              <div class="col">
+                <div class="row">
+                  <p>Bandana Gato<br>Celeste</p>
+                </div>
+                <div class="row">
+                  <h2>
+                    <p><b>$2.990</b></p>
+                  </h2>
+                </div>
+                <div class="row"></div>
+              </div>
+              <!--imagen-->
+              <div class="col">
+                <img id="primerbandana" src="img/cc5.jpg">
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-    <!--grid-->
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        <div class="row">
+          <!--caja-->
+          <div class="bandana-dos">
+            <div class="row">
+              <!--datos-->
+              <div class="col">
+                <div class="row">
+                  <p>Bandana Perro<br>Rayas locas</p>
+                </div>
+                <div class="row">
+                  <h2>
+                    <p><b>$1.990</b></p>
+                  </h2>
+                </div>
+                <div class="row"></div>
+              </div>
+              <!--imagen-->
+              <div class="col">
+                <img id="segundabandana" src="img/c3.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!--caja-->
+          <div class="bandana-tres">
+            <div class="row">
+              <!--datos-->
+              <div class="col">
+                <div class="row">
+                  <p>Bandana Gato<br>Locura</p>
+                </div>
+                <div class="row">
+                  <h2>
+                    <p><b>$1.990</b></p>
+                  </h2>
+                </div>
+                <div class="row"></div>
+              </div>
+              <!--imagen-->
+              <div class="col">
+                <img id="tercerbandana" src="img/cc2.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--tercera columna-->
+      <div class="col">
+        <div class="row">
+          <!--caja-->
+          <div class="bandana-cuatro">
+            <div class="row">
+              <!--datos-->
+              <div class="col">
+                <div class="row">
+                  <p>Bandana Gato<br>Street</p>
+                </div>
+                <div class="row">
+                  <h2>
+                    <p><b>$2.990</b></p>
+                  </h2>
+                </div>
+                <div class="row"></div>
+              </div>
+              <!--imagen-->
+              <div class="col">
+                <img id="cuartabandana" src="img/cc4.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!--caja-->
+          <div class="bandana-cinco">
+            <div class="row">
+              <!--datos-->
+              <div class="col">
+                <div class="row">
+                  <p>Bandana Perro<br>Traje Elegante</p>
+                </div>
+                <div class="row">
+                  <h2>
+                    <p><b>$3.990</b></p>
+                  </h2>
+                </div>
+                <div class="row"></div>
+              </div>
+              <!--imagen-->
+              <div class="col">
+                <img id="quintabandana" src="img/c4.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!--caja-->
+          <div class="bandana-seis">
+            <div class="row">
+              <!--datos-->
+              <div class="col">
+                <div class="row">
+                  <p>Bandana Gato<br>Cuadrille</p>
+                </div>
+                <div class="row">
+                  <h2>
+                    <p><b>$1.990</b></p>
+                  </h2>
+                </div>
+                <div class="row"></div>
+              </div>
+              <!--imagen-->
+              <div class="col">
+                <img id="sextabandana" src="img/cc3.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--cuarta columna-->
+      <div class="col">
+        <div class="row">
+          <!--caja-->
+          <div class="bandana-siete">
+            <div class="row">
+              <!--datos-->
+              <div class="col">
+                <div class="row">
+                  <p>Bandana Perro<br>Traje Elegante</p>
+                </div>
+                <div class="row">
+                  <h2>
+                    <p><b>$3.990</b></p>
+                  </h2>
+                </div>
+                <div class="row"></div>
+              </div>
+              <!--imagen-->
+              <div class="col">
+                <img id="septimabandana" src="img/c2.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!--caja-->
+          <div class="bandana-ocho">
+            <div class="row">
+              <!--datos-->
+              <div class="col">
+                <div class="row">
+                  <p>Bandana Perro<br>Cuadrille</p>
+                </div>
+                <div class="row">
+                  <h2>
+                    <p><b>$1.990</b></p>
+                  </h2>
+                </div>
+              </div>    
+              <div class="col">
+                <img id="octavabandana" src="img/c1.jpg">
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div class="row">
+          <!--caja-->
+          <div class="bandana-nueve">
+            <div class="row">
+              <!--datos-->
+              <div class="col">
+                <div class="row">
+                  <p>Bandana Gato<br>Fifi</p>
+                </div>
+                <div class="row">
+                  <h2>
+                    <p><b>$1.990</b></p>
+                  </h2>
+                </div>
+                <div class="row"></div>
+              </div>
+              <!--imagen-->
+              <div class="col">
+                <img id="novenabandana" src="img/cc1.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 </body>
+
 </html>
