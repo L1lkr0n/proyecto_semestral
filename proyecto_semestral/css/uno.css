@@ -1,9 +1,8 @@
 body{
-    background-image: linear-gradient(to right,#669999 0%, #99ccff 100%);
+    background: linear-gradient(to right, #0c6269, #49e8f7);
     justify-content: space-around;
 }
 nav{
-    background-color:rgb(118, 242, 238);
     margin: 0;
 }
 

@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to right,#669999 0%, #99ccff 100%);
+    background: linear-gradient(to right, #0c6269, #49e8f7);
 }
 .me-2{
     border:3px solid black;
@@ -60,6 +60,14 @@ b{
     width:380px;
     height:200px;
 }
+.bandana-uno h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.bandan-uno h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
+}
 #primerbandana{
     border: 3px solid black;
     border-radius: 20px;
@@ -73,6 +81,14 @@ b{
     margin: 50px 10px 0px 0px;
     width:380px;
     height:200px;
+}
+.bandana-dos h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.bandana-dos h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
 }
 #segundabandana{
     border: 3px solid black;
@@ -88,6 +104,14 @@ b{
     width:380px;
     height:200px;
 }
+.bandana-tres h4{
+    margin-top: 30px;
+    margin-left: 22px;
+} 
+.bandana-tres h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
+}
 #tercerbandana{
     border: 3px solid black;
     border-radius: 20px;
@@ -101,6 +125,14 @@ b{
     margin: 50px 10px 0px 0px;
     width:380px;
     height:200px;
+}
+.bandana-cuatro h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.bandana-cuatro h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
 }
 #cuartabandana{
     border: 3px solid black;
@@ -116,6 +148,14 @@ b{
     width:380px;
     height:200px;
 }
+.bandana-cinco h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.bandana-cinco h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
+}
 #quintabandana{
     border: 3px solid black;
     border-radius: 20px;
@@ -129,6 +169,14 @@ b{
     margin: 50px 10px 0px 0px;
     width:380px;
     height:200px;
+}
+.bandana-seis h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.bandana-seis h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
 }
 #sextabandana{
     border: 3px solid black;
@@ -144,6 +192,14 @@ b{
     width:380px;
     height:200px;
 }
+.bandana-siete h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.bandana-siete h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
+}
 #septimabandana{
     border: 3px solid black;
     border-radius: 20px;
@@ -157,6 +213,14 @@ b{
     margin: 50px 10px 0px 0px;
     width:380px;
     height:200px;
+}
+.bandana-ocho h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.bandana-ocho h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
 }
 #octavabandana{
     border: 3px solid black;
@@ -172,10 +236,48 @@ b{
     width:380px;
     height:200px;
 }
+.bandana-nueve h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.bandana-nueve h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
+}
 #novenabandana{
     border: 3px solid black;
     border-radius: 20px;
     width:150px;
     height:150px;
     margin:20px 20px 0px 0px;
+}
+.bandana-uno .bandana-dos .bandana-tres .bandana-cuatro .bandana-seis .bandana-siete .bandana-ocho .bandana-nueve{
+    transition: all 0.1s;
+}
+.bandana-uno:hover{
+    transform: scale(1.2);
+}
+.bandana-dos:hover{
+    transform: scale(1.2);
+}
+.bandana-tres:hover{
+    transform: scale(1.2);
+}
+.bandana-cuatro:hover{
+    transform: scale(1.2);
+}
+.bandana-cinco:hover{
+    transform: scale(1.2);
+}
+.bandana-seis:hover{
+    transform: scale(1.2);
+}
+.bandana-siete:hover{
+    transform: scale(1.2);
+}
+.bandana-ocho:hover{
+    transform: scale(1.2);
+}
+.bandana-nueve:hover{
+    transform: scale(1.2);
 }

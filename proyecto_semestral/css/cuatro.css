@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to right,#669999 0%, #99ccff 100%);
+    background: linear-gradient(to right, #0c6269, #49e8f7);
 }
 .me-2{
     border:3px solid black;
@@ -60,6 +60,14 @@ b{
     width:380px;
     height:200px;
 }
+.correa-uno h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.correa-uno h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
+}
 #primercorrea{
     border: 3px solid black;
     border-radius: 20px;
@@ -73,6 +81,14 @@ b{
     margin: 50px 10px 0px 0px;
     width:380px;
     height:200px;
+}
+.correa-dos h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.correa-dos h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
 }
 #segundacorrea{
     border: 3px solid black;
@@ -88,6 +104,14 @@ b{
     width:380px;
     height:200px;
 }
+.correa-tres h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.correa-tres h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
+}
 #terceracorrea{
     border: 3px solid black;
     border-radius: 20px;
@@ -101,6 +125,14 @@ b{
     margin: 50px 10px 0px 0px;
     width:380px;
     height:200px;
+}
+.correa-cuatro h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.correa-cuatro h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
 }
 #cuartacorrea{
     border: 3px solid black;
@@ -116,6 +148,14 @@ b{
     width:380px;
     height:200px;
 }
+.correa-cinco h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.correa-cinco h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
+}
 #quintacorrea{
     border: 3px solid black;
     border-radius: 20px;
@@ -129,6 +169,14 @@ b{
     margin: 50px 10px 0px 0px;
     width:380px;
     height:200px;
+}
+.correa-seis h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.correa-seis h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
 }
 #sextacorrea{
     border: 3px solid black;
@@ -144,6 +192,14 @@ b{
     width:380px;
     height:200px;
 }
+.correa-siete h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.correa-siete h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
+}
 #septimacorrea{
     border: 3px solid black;
     border-radius: 20px;
@@ -157,6 +213,14 @@ b{
     margin: 50px 10px 0px 0px;
     width:380px;
     height:200px;
+}
+.correa-ocho h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.correa-ocho h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
 }
 #octavacorrea{
     border: 3px solid black;
@@ -172,10 +236,48 @@ b{
     width:380px;
     height:200px;
 }
+.correa-nueve h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.correa-nueve h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
+}
 #novenacorrea{
     border: 3px solid black;
     border-radius: 20px;
     width:150px;
     height:150px;
     margin:20px 20px 0px 0px;
+}
+.correa-uno .correa-dos .correa-tres .correa-cuatro .correa-cinco .correa-seis .correa-siete .correa-ocho .correa-nueve{
+    transition: all 0.1s;
+}
+.correa-uno:hover{
+    transform: scale(1.2);
+}
+.correa-dos:hover{
+    transform: scale(1.2);
+}
+.correa-tres:hover{
+    transform: scale(1.2);
+}
+.correa-cuatro:hover{
+    transform: scale(1.2);
+}
+.correa-cinco:hover{
+    transform: scale(1.2);
+}
+.correa-seis:hover{
+    transform: scale(1.2);
+}
+.correa-siete:hover{
+    transform: scale(1.2);
+}
+.correa-ocho:hover{
+    transform: scale(1.2);
+}
+.correa-nueve:hover{
+    transform: scale(1.2);
 }

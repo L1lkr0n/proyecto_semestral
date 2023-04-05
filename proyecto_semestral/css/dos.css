@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to right,#669999 0%, #99ccff 100%);
+    background: linear-gradient(to right, #0c6269, #49e8f7);
 }
 .me-2{
     border:3px solid black;
@@ -73,6 +73,14 @@ p{
     width:380px;
     height:200px;
 }
+.collar-uno h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.collar-uno h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
+}
 #primercollar{
     border: 3px solid black;
     border-radius: 20px;
@@ -86,6 +94,14 @@ p{
     margin: 50px 10px 0px 0px;
     width:380px;
     height:200px;
+}
+.collar-dos h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.collar-dos h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
 }
 #segundocollar{
     border: 3px solid black;
@@ -101,6 +117,14 @@ p{
     width:380px;
     height:200px;
 }
+.collar-tres h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.collar-tres h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
+}
 #tercercollar{
     border: 3px solid black;
     border-radius: 20px;
@@ -114,6 +138,14 @@ p{
     margin: 50px 10px 0px 0px;
     width:380px;
     height:200px;
+}
+.collar-cuatro h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.collar-cuatro h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
 }
 #cuartocollar{
     border: 3px solid black;
@@ -129,6 +161,14 @@ p{
     width:380px;
     height:200px;
 }
+.collar-cinco h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.collar-cinco h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
+}
 #quintocollar{
     border: 3px solid black;
     border-radius: 20px;
@@ -142,6 +182,14 @@ p{
     margin: 50px 10px 0px 0px;
     width:380px;
     height:200px;
+}
+.collar-seis h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.collar-seis h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
 }
 #sextocollar{
     border: 3px solid black;
@@ -157,6 +205,14 @@ p{
     width:380px;
     height:200px;
 }
+.collar-siete h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.collar-siete h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
+}
 #septimocollar{
     border: 3px solid black;
     border-radius: 20px;
@@ -170,6 +226,14 @@ p{
     margin: 50px 10px 0px 0px;
     width:380px;
     height:200px;
+}
+.collar-ocho h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.collar-ocho h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
 }
 #octavocollar{
     border: 3px solid black;
@@ -185,10 +249,48 @@ p{
     width:380px;
     height:200px;
 }
+.collar-nueve h4{
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.collar-nueve h2{
+    margin-bottom: 40px;
+    margin-left: 14px;
+}
 #novenocollar{
     border: 3px solid black;
     border-radius: 20px;
     width:150px;
     height:150px;
     margin:20px 20px 0px 0px;
+}
+.collar-uno .collar-dos .collar-tres .collar-cuatro .collar-cinco .collar-seis .collar-siete .collar-ocho .collar-nueve{
+    transition: all 0.1s;
+}
+.collar-uno:hover{
+    transform: scale(1.2);
+}
+.collar-dos:hover{
+    transform: scale(1.2);
+}
+.collar-tres:hover{
+    transform: scale(1.2);
+}
+.collar-cuatro:hover{
+    transform: scale(1.2);
+}
+.collar-cinco:hover{
+    transform: scale(1.2);
+}
+.collar-seis:hover{
+    transform: scale(1.2);
+}
+.collar-siete:hover{
+    transform: scale(1.2);
+}
+.collar-ocho:hover{
+    transform: scale(1.2);
+}
+.collar-nueve:hover{
+    transform: scale(1.2);
 }

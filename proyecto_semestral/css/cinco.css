@@ -1,5 +1,5 @@
 .fondo{
-    background-image: linear-gradient(to right,#669999 0%, #99ccff 100%);
+    background: linear-gradient(to right, #0c6269, #49e8f7);
 }
 .me-2{
     border:3px solid black;
