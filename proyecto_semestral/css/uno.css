@@ -6,67 +6,16 @@ nav{
     margin: 0;
 }
 
-.flex-containerizq{
+.flex-container{
     display: flex;
     width: 600px;
-    height :80px;
-    background-color: white; 
+    height :100px;
+    background-color: grey; 
     padding:10px; 
-    border: 3px solid black;
-    color:black;
+    color:white;
     border-radius: 10px;
-    margin: 50px 80px 30px 80px ;
+    margin: 40px 0px 20px 600px;
     justify-content: center;
-}
-.flex-containerder{
-    display: flex;
-    width: 600px;
-    height :80px;
-    background-color: white; 
-    padding: 10px;
-    border:3px solid black;
-    color:black;
-    border-radius: 10px;
-    margin: 50px 0px 0px 80px;
-    justify-content: center;
-}
-.flex-containercollares{
-    display:flex;
-    width: 300px;
-    height: 80px;
-    background-color: white;
-    padding: 10px;
-    border: 3px solid black;
-    color:black;
-    border-radius: 10px;
-    margin: 20px 0px 20px 90px;
-    justify-content: center;
-    
-}
-.flex-containerbandanas{
-    display:flex;
-    width: 300px;
-    height: 80px;
-    background-color: white;
-    padding: 10px;
-    border: 3px solid black;
-    color:black;
-    border-radius: 10px;
-    margin: 20px 0px 20px 90px;
-    justify-content: center;
-    
-}
-.flex-containercorreas{
-    width: 300px;
-    height: 80px;
-    background-color: white;
-    padding: 10px;
-    border: 3px solid black;
-    color:black;
-    border-radius: 10px;
-    margin: 20px 0px 20px 90px;
-    justify-content: center;
-    
 }
 h1{
     display:flex;
@@ -77,12 +26,6 @@ img{
 }
 .collarperro{
     margin: 20px 0px 0px 90px;
-}
-.collarperro img{
-    transition: all 0.3s;
-}
-.collarperro img:hover{
-    transform: scale(1.2);
 }
 .bandanaperro{
     margin: 20px 0px 0px 90px;
