@@ -55,15 +55,16 @@ b{
 }
 .container-box{
     display: flex;
-    width: 650px;
-    height :120px;
+    width: 640px;
+    height :130px;
     background-color: white; 
-    padding:10px; 
+    padding:5px; 
     border: 3px solid black;
     color:black;
     border-radius: 10px;
     margin: 250px 30px 40px 200px ;
     justify-content: center;
+    color:black
 }
 .container-petshop{
     display: flex;

@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(to right, #0c6269, #49e8f7);
     justify-content: space-around;
+    min-height: 100%;
 }
 nav{
     margin: 0;
@@ -8,13 +9,13 @@ nav{
 
 .flex-container{
     display: flex;
-    width: 600px;
+    width: 900px;
     height :100px;
     background-color: grey; 
-    padding:10px; 
+    padding-top:25px; 
     color:white;
     border-radius: 10px;
-    margin: 40px 0px 20px 600px;
+    margin: 40px 0px 20px 450px;
     justify-content: center;
 }
 h1{
@@ -46,6 +47,27 @@ img{
    width:250px;
    height:200px;
 }
+.collarv{
+    margin-top: 20px; 
+}
+.correav{
+    margin-top: 20px;
+}
+.bandanav{
+    margin-top: 20px;
+}
+.vainilla{
+    width:250px;
+    height:200px;
+}
+.verde{
+    width:250px;
+    height:200px;
+} 
+.rosada{
+    width:250px;
+    height:200px;
+}
 .collarperro{
     margin: 20px 0px 0px 20px;
 }
@@ -56,7 +78,7 @@ img{
     margin: 20px 0px 0px 90px;
 }
 .collargato{
-    margin: 20px 0px 0px 90px;
+    margin: 20px 0px 0px 20px;
 }
 .bandanagatos{
     margin: 20px 0px 0px 90px;
@@ -76,16 +98,16 @@ img{
     width: 250px;
 }
 .collarg{
-    width: 300px;
-    height:250px;
+    width: 250px;
+    height: 200px;
 }
 .bandanag{
-    width: 300px;
-    height:250px;
+    width: 250px;
+    height: 200px;
 }
 .correag{
-    width: 300px;
-    height:250px;
+    width: 250px;
+    height: 200px;
 }
 
 
@@ -144,4 +166,6 @@ b{
     color:black;
     background-color:#ffffff;
 }
-
+.container-fluid .row{
+    margin-top: 30px;
+}

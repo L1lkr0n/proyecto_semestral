@@ -60,6 +60,15 @@ b{
     margin: 80px 0px 0px 40px;
     border-radius: 10px;
 }
+.menu-busqueda p{
+    color: #ffffff;
+}
+.menu-busqueda h3{
+    color: #ffffff;
+}
+.menu-busqueda h4{
+    color: #ffffff;
+}
 .titulo{
     margin-left: 40px;
 }

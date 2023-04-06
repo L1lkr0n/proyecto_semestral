@@ -1,13 +1,26 @@
 body{
     background: linear-gradient(to right, #0c6269, #49e8f7);
+    min-height: 100%;
 }
 .container{
-    justify-content: center;
+    margin-top:200px;
 }
 .imagen{
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 10px;
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+.info{
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 250px;
+    width: 350px;
+    margin-top: 70px;
+    padding-top: 3px;
 }
 #septimabandana{
     border-radius: 20px;
