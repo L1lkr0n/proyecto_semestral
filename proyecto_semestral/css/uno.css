@@ -24,8 +24,30 @@ h1{
 img{
     border: 3px solid black;
 }
+/*imagenes*/
+.collar{
+    margin-top: 20px;
+}
+.bandana{
+    margin-top: 20px;
+}
+.correa{
+    margin-top: 20px;
+}
+.rojo{
+   width:250px;
+   height:200px;
+}
+.blanco{
+   width:250px;
+   height:200px;
+}
+.cafe{
+   width:250px;
+   height:200px;
+}
 .collarperro{
-    margin: 20px 0px 0px 90px;
+    margin: 20px 0px 0px 20px;
 }
 .bandanaperro{
     margin: 20px 0px 0px 90px;
@@ -43,15 +65,15 @@ img{
     margin: 20px 0px 0px 90px;
 }
 .collarp{
-    width: 300px;
-    height:250px;
+    width: 250px;
+    height:200px;
 }
 .bandanap{
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
 }
 .correap{
-    width: 300px
+    width: 250px;
 }
 .collarg{
     width: 300px;
@@ -65,6 +87,9 @@ img{
     width: 300px;
     height:250px;
 }
+
+
+
 <!--navbar-->
 
 .me-2{
