@@ -26,6 +26,36 @@ b{
 .bi::before{
     background-size: 5rem 5rem;
 }
+.bi-person-fill{
+    font-size: 30px;
+}
+.bi-list{
+    font-size: 30px;
+}
+.nav-link{
+    margin:0px 0px 0px 30px;
+}
+.dropdown-menu{
+    margin-left:10px;
+}
+.d-flex{
+    margin-right: 30px;
+    width: 500px;
+}
+.xxxx:hover{
+    background-color:black;
+    color:#ffffff;
+    
+}
+   
+.xxxx{
+    border-color: black;
+    color:black;
+    background-color:#ffffff;
+}
+b{
+    font-size: 30px;
+}
 .menu-busqueda{
     border:3px solid black;
     height:700px;
