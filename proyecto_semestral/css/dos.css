@@ -90,8 +90,16 @@ b{
     font-size: 5rem 5rem;
 }
 */
-.bi bi-arrow-down{
-   font-size: 1em 1em;
+.bi-arrow-down{
+   font-size: 30px;
+   color: #ffffff;
+}
+#perro{
+   margin-left: 60px;
+
+}
+#gato{
+   margin-left: 60px;
 }
 .gato{
     margin: 20px 0px 0px 20px;

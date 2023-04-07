@@ -82,6 +82,17 @@ b{
     border:2px solid black;
     margin-top: 20px;
 }
+.bi-arrow-down{
+    font-size: 30px;
+    color: #ffffff;
+ }
+ #perro{
+    margin-left: 60px;
+ 
+ }
+ #gato{
+    margin-left: 60px;
+ }
 .gato{
     margin: 20px 0px 0px 20px;
 }
