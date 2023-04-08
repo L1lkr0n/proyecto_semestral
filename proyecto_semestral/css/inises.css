@@ -169,7 +169,6 @@ input[type="submit"]:hover{
     text-decoration: underline;
 }
 .me-2{
-    border:3px solid black;
     border-radius:10px;
     width: 300px;
 }
