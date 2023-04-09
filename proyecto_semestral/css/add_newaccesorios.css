@@ -52,3 +52,33 @@ b{
     color:black;
     background-color:#ffffff;
 }
+/*formulario*/
+.formulario{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 800px;
+    background: white;
+    border-radius: 10px;
+}
+.formulario h1{
+    text-align: center;
+}
+.form-label{
+    margin-left: 50px;
+}
+.form-control{
+    display: flex;
+    width:600px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.radio{
+    margin-left: 50px;
+}
+.separador{
+    width:600px;
+    margin-left: 50px;
+}
