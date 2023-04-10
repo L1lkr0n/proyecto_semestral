@@ -57,8 +57,8 @@ b{
     top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 700px;
-    height: 800px;
+    width: 1000px;
+    height: 600px;
     background: white;
     border-radius: 10px;
 }
@@ -105,7 +105,7 @@ input[type="submit"]{
     cursor: pointer;
     outline: none;
     margin-top: 50px;
-    margin-left: 250px;
+    margin-left: 400px;
 }
 input[type="submit"]:hover{
     color: #0c6269;
