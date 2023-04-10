@@ -52,3 +52,53 @@ b{
     color:black;
     background-color:#ffffff;
 }
+.formulario{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 800px;
+    background: white;
+    border-radius: 10px;
+}
+.formulario h1{
+    text-align: center;
+}
+.form-label{
+    margin-left: 50px;
+}
+.form-control{
+    display: flex;
+    width:200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.radio{
+    margin-left: 50px;
+}
+.separador{
+    width:600px;
+    margin-left: 50px;
+}
+#imagen{
+    width: 600px !important;;
+}
+input[type="submit"]{
+    width: 200px;
+    height: 50px;
+    border: 1px solid;
+    background: linear-gradient(to right, #0c6269, #49e8f7);
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+input[type="submit"]:hover{
+    color: #0c6269;
+    transition: .5s;
+}

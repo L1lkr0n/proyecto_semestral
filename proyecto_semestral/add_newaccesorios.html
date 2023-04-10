@@ -57,27 +57,6 @@
       <h1>Agregar</h1>
       <hr>
       <form nethod="post">
-        <div class="mb-3">
-          <label for="imagen" class="form-label"><h4>Imagen</h4></label>
-          <input class="form-control" type="file" id="imagen" required>
-        </div>
-        <hr class="separador">
-        <label class="form-label"><h4>Animal</h4></label>
-        <div class="radio">
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="Gato" required>
-            <label class="form-check-label" for="Gato">
-              Gato
-            </label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="Perro" required>
-            <label class="form-check-label" for="Perro">
-              Perro
-            </label>
-          </div>
-        </div>
-        <hr class="separador">
         <label class="form-label"><h4>Objeto</h4></label>
         <div class="radio">
           <div class="form-check form-check-inline">
@@ -100,18 +79,72 @@
           </div>
         </div>
         <hr class="separador">
+        <div class="row">
+          <div class="col">
+            <label class="form-label"><h4>Columna</h4></label>
+            <div class="radio">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="col2" required>
+                <label class="form-check-label" for="col2">
+                  2
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="col3" required>
+                <label class="form-check-label" for="col3">
+                  3
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="col4" required>
+                <label class="form-check-label" for="col4">
+                  4
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <label class="form-label"><h4>Fila</h4></label>
+            <div class="radio">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="fila1" required>
+                <label class="form-check-label" for="fila1">
+                  1
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="fila2" required>
+                <label class="form-check-label" for="fila2">
+                  2
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="fila3" required>
+                <label class="form-check-label" for="fila3">
+                  3
+                </label>
+              </div>
+            </div>
+          </div>  
+        </div>  
+        <hr class="separador">
+        <div class="mb-3">
+          <label for="imagen" class="form-label"><h4>Imagen</h4></label>
+          <input class="form-control" type="file" id="imagen">
+        </div>
+        <hr class="separador">
         <label class="form-label"><h4>Datos</h4></label>
         <div class="row">
           <div class="col">
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre" required>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
             </div>
           </div>  
           <div class="col">
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Color</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Color" required>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Color">
             </div>
           </div>
         </div>
@@ -119,13 +152,13 @@
           <div class="col">
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Talla</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Talla" required>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Talla">
             </div>
           </div>
           <div class="col">
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Tipo</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tipo" required>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tipo">
             </div>
           </div>
         </div>
@@ -133,11 +166,21 @@
           <div class="col">
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Material</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Material" required>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Material">
             </div>
           </div>
           <div class="col">
-            <div class="recordar"></div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Precio</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Precio">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="submit" value="Limpiar">
+          </div>
+          <div class="col">
             <input type="submit" value="Agregar">
           </div>
         </div>
