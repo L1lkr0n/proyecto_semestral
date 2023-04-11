@@ -21,13 +21,13 @@ body{
 }
 
 .img-1{
-    background-image: url("/proyecto_semestral/img/PerroLindo.jpg");
+    background-image: url("/img/GatoLindo.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .img-2{
-    background-image:  url("/proyecto_semestral/img/GatoLindo.jpg");
+    background-image:  url("/img/PerroLindo.jpg");
     background-size: cover;
     background-position: center;
 }
