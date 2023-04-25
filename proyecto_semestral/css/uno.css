@@ -1,13 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+}
 body{
     background: linear-gradient(to right, #0c6269, #49e8f7);
-    justify-content: space-around;
-    min-height: 100%;
+    justify-content: center;
+    height: 100vh;
 }
 nav{
     margin: 0;
 }
 
-.flex-container{
+.container{
     display: flex;
     width: 900px;
     height :100px;
@@ -15,7 +19,8 @@ nav{
     padding-top:25px; 
     color:white;
     border-radius: 10px;
-    margin: 40px 0px 20px 450px;
+    width:100vh;
+    /*margin: 40px 0px 20px 450px;*/
     justify-content: center;
 }
 h1{
@@ -167,4 +172,16 @@ b{
 }
 .container-fluid .row{
     margin-top: 30px;
+}
+@media screen and (max-width: 376px){
+    .container{
+        width:300px;
+    }
+    .container .msj{
+        font-size: 20px;
+    }
+    .col-md-2{
+        text-align: center;
+        align-items: center;
+    }
 }

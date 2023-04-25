@@ -327,3 +327,12 @@ b{
 .correa-nueve:hover{
     transform: scale(1.2);
 }
+@media screen and (max-width: 376px){
+    .col-xxl-3{
+        text-align: center;
+    }
+    .menu-busqueda{
+        width:300px;
+        height:500px;
+    }
+}

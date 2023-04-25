@@ -340,3 +340,15 @@ p{
 .collar-nueve:hover{
     transform: scale(1.2);
 }
+@media screen and (max-width: 376px){
+    .col-xxl-3{
+        text-align: center;
+    }
+    .menu-busqueda{
+        width:300px;
+        height:500px;
+    }
+    .collar-uno .collar-dos .collar-tres .collar-cuatro .collar-cinco .collar-seis .collar-siete .collar-ocho .collar-nueve{
+        width:250px !important;
+    } 
+}
