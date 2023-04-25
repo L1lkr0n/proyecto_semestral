@@ -1,186 +1,228 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
-body{
-    background: linear-gradient(to right, #0c6269, #49e8f7);
+
+body {
+    background: linear-gradient(to right,#9441e7, #4e92ff, #1b8892);
     justify-content: center;
     height: 100vh;
 }
-nav{
+
+nav {
     margin: 0;
 }
 
-.container{
+.container {
     display: flex;
     width: 900px;
-    height :100px;
-    background-color: grey; 
-    padding-top:25px; 
-    color:white;
+    height: 100px;
+    background-color: grey;
+    padding-top: 25px;
+    color: white;
     border-radius: 10px;
-    width:100vh;
+    width: 100vh;
     /*margin: 40px 0px 20px 450px;*/
     justify-content: center;
 }
-h1{
-    display:flex;
+
+h1 {
+    display: flex;
     justify-content: center;
 }
-img{
+
+img {
     border: 3px solid black;
 }
+
 /*imagenes*/
-.collar{
+.collar {
     margin-top: 20px;
 }
-.bandana{
+
+.bandana {
     margin-top: 20px;
 }
-.correa{
+
+.correa {
     margin-top: 20px;
 }
-.rojo{
-   width:250px;
-   height:200px;
-}
-.blanco{
-   width:250px;
-   height:200px;
-}
-.cafe{
-   width:250px;
-   height:200px;
-}
-.collarv{
-    margin-top: 20px; 
-}
-.correav{
-    margin-top: 20px;
-}
-.bandanav{
-    margin-top: 20px;
-}
-.vainilla{
-    width:250px;
-    height:200px;
-}
-.verde{
-    width:250px;
-    height:200px;
-} 
-.rosada{
-    width:250px;
-    height:200px;
-}
-.collarperro{
-    margin: 20px 0px 0px 20px;
-}
-.bandanaperro{
-    margin: 20px 0px 0px 20px;
-}
-.correaperro{
-    margin: 20px 0px 0px 20px;
-}
-.collargato{
-    margin: 20px 0px 0px 20px;
-}
-.bandanagatos{
-    margin: 20px 0px 0px 20px;
-}
-.correagatos{
-    margin: 20px 0px 0px 20px;
-}
-.collarp{
-    width: 250px;
-    height:200px;
-}
-.bandanap{
+
+.rojo {
     width: 250px;
     height: 200px;
 }
-.correap{
-    width: 250px;
-}
-.collarg{
+
+.blanco {
     width: 250px;
     height: 200px;
 }
-.bandanag{
+
+.cafe {
     width: 250px;
     height: 200px;
 }
-.correag{
+
+.collarv {
+    margin-top: 20px;
+}
+
+.correav {
+    margin-top: 20px;
+}
+
+.bandanav {
+    margin-top: 20px;
+}
+
+.vainilla {
+    width: 250px;
+    height: 200px;
+}
+
+.verde {
+    width: 250px;
+    height: 200px;
+}
+
+.rosada {
+    width: 250px;
+    height: 200px;
+}
+
+.collarperro {
+    margin: 20px 0px 0px 20px;
+}
+
+.bandanaperro {
+    margin: 20px 0px 0px 20px;
+}
+
+.correaperro {
+    margin: 20px 0px 0px 20px;
+}
+
+.collargato {
+    margin: 20px 0px 0px 20px;
+}
+
+.bandanagatos {
+    margin: 20px 0px 0px 20px;
+}
+
+.correagatos {
+    margin: 20px 0px 0px 20px;
+}
+
+.collarp {
+    width: 250px;
+    height: 200px;
+}
+
+.bandanap {
+    width: 250px;
+    height: 200px;
+}
+
+.correap {
+    width: 250px;
+}
+
+.collarg {
+    width: 250px;
+    height: 200px;
+}
+
+.bandanag {
+    width: 250px;
+    height: 200px;
+}
+
+.correag {
     width: 250px;
     height: 200px;
 }
 
 
 
-<!--navbar-->
-
-.me-2{
-    border-radius:10px;
+<!--navbar-->.me-2 {
+    border-radius: 10px;
     width: 300px;
 }
-.buscador{
-    margin:0px 50px 0px 0px;
+
+.buscador {
+    margin: 0px 50px 0px 0px;
 }
-.btn-outline-succes{
-    border :3px solid black;
+
+.btn-outline-succes {
+    border: 3px solid black;
 }
-.btn-outline-succes:hover{
-    background-color:#99ccff;
+
+.btn-outline-succes:hover {
+    background-color: #99ccff;
 }
-.iconopatas{
-    width:40px;
-    height:40px;
-    border:none;
+
+.iconopatas {
+    width: 40px;
+    height: 40px;
+    border: none;
 }
-b{
+
+b {
     font-size: 30px;
 }
-.bi::before{
+
+.bi::before {
     background-size: 5rem 5rem;
 }
-.bi-person-fill{
+
+.bi-person-fill {
     font-size: 30px;
 }
-.bi-list{
+
+.bi-list {
     font-size: 30px;
 }
-.nav-link{
-    margin:0px 0px 0px 30px;
+
+.nav-link {
+    margin: 0px 0px 0px 30px;
 }
-.dropdown-menu{
-    margin-left:10px;
+
+.dropdown-menu {
+    margin-left: 10px;
 }
-.d-flex{
+
+.d-flex {
     margin-right: 30px;
     width: 500px;
 }
-.xxxx:hover{
-    background-color:black;
-    color:#ffffff;
-    
+
+.xxxx:hover {
+    background-color: black;
+    color: #ffffff;
+
 }
-   
-.xxxx{
+
+.xxxx {
     border-color: black;
-    color:black;
-    background-color:#ffffff;
+    color: black;
+    background-color: #ffffff;
 }
-.container-fluid .row{
+
+.container-fluid .row {
     margin-top: 30px;
 }
-@media screen and (max-width: 376px){
-    .container{
-        width:300px;
+
+@media screen and (max-width: 376px) {
+    .container {
+        width: 300px;
     }
-    .container .msj{
+
+    .container .msj {
         font-size: 20px;
     }
-    .col-md-2{
+
+    .col-md-2 {
         text-align: center;
         align-items: center;
     }

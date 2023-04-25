@@ -1,84 +1,103 @@
-:root{
+:root {
     --dark: #16191c;
     --dark-x: #1e2126;
     --light: #ffffff;
 }
 
-body{
+body {
     background: linear-gradient(to right, #0c6269, #49e8f7);
     font-family: 'Spartan', sans-serif;
     font-weight: 300;
     color: var(--dark)
 }
 
-.bg-dark {background-color: var(--dark) !important;}
-.bg-dark-x{ background-color: var(--dark-x);}
+.bg-dark {
+    background-color: var(--dark) !important;
+}
 
-.form-control, .btn{
+.bg-dark-x {
+    background-color: var(--dark-x);
+}
+
+.form-control,
+.btn {
     min-height: 3.125rem;
     line-height: initial;
 
 }
 
-.img-1{
+.img-1 {
     background-image: url("/img/GatoLindo.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.img-2{
-    background-image:  url("/img/PerroLindo.jpg");
+.img-2 {
+    background-image: url("/img/PerroLindo.jpg");
     background-size: cover;
     background-position: center;
 }
-.me-2{
-    border-radius:10px;
+
+.me-2 {
+    border-radius: 10px;
     width: 300px;
 }
-.buscador{
-    margin:0px 50px 0px 0px;
+
+.buscador {
+    margin: 0px 50px 0px 0px;
 }
-.btn-outline-succes{
-    border :3px solid black;
+
+.btn-outline-succes {
+    border: 3px solid black;
 }
-.btn-outline-succes:hover{
-    background-color:#99ccff;
+
+.btn-outline-succes:hover {
+    background-color: #99ccff;
 }
-.iconopatas{
-    width:40px;
-    height:40px;
-    border:none;
+
+.iconopatas {
+    width: 40px;
+    height: 40px;
+    border: none;
 }
-b{
+
+b {
     font-size: 30px;
 }
-.bi::before{
+
+.bi::before {
     background-size: 5rem 5rem;
 }
-.bi-person-fill{
+
+.bi-person-fill {
     font-size: 30px;
 }
-.bi-list{
+
+.bi-list {
     font-size: 30px;
 }
-.nav-link{
-    margin:0px 0px 0px 30px;
+
+.nav-link {
+    margin: 0px 0px 0px 30px;
 }
-.dropdown-menu{
-    margin-left:10px;
+
+.dropdown-menu {
+    margin-left: 10px;
 }
-.d-flex{
+
+.d-flex {
     margin-right: 30px;
     width: 500px;
 }
-.xxxx:hover{
-    background-color:black;
-    color:#ffffff;
-    
+
+.xxxx:hover {
+    background-color: black;
+    color: #ffffff;
+
 }
-   
-.xxxx{
+
+.xxxx {
     border-color: black;
-    color:black;
-    background-color:#ffffff;
+    color: black;
+    background-color: #ffffff;
 }
