@@ -13,17 +13,16 @@ nav {
     margin: 0;
 }
 
-.container {
+.container{
     display: flex;
     width: 900px;
     height: 100px;
     background-color: grey;
-    padding-top: 25px;
     color: white;
     border-radius: 10px;
-    width: 100vh;
     /*margin: 40px 0px 20px 450px;*/
     justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -225,5 +224,8 @@ b {
     .col-md-2 {
         text-align: center;
         align-items: center;
+    }
+    body{
+        max-width: 376px;
     }
 }
