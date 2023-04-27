@@ -55,69 +55,21 @@ b{
 b{
     font-size: 30px;
 }
-.menu-busqueda{
-    border:3px solid black;
-    height:700px;
-    width:350px;
-    margin: 80px 0px 0px 40px;
-    border-radius: 10px;
-}
-.menu-busqueda p{
-    color: #ffffff;
-}
-.menu-busqueda h3{
-    color: #ffffff;
-}
-.menu-busqueda h4{
-    color: #ffffff;
-}
-.titulo{
-    margin-left: 40px;
-}
-.subtitulo{
-    margin-left: 40px;
-}
-.resultados{
-    border: 2px solid black;
-}
-.ordernar_por{
-    border:2px solid black;
-    margin-top: 20px;
-}
-/*
-.bi::before{
-    font-size: 5rem 5rem;
-}
-*/
-.bi-arrow-down{
-   font-size: 30px;
-   color: #ffffff;
-}
-#perro{
-   margin-left: 60px;
-
-}
-#gato{
-   margin-left: 60px;
-}
-.gato{
-    margin: 20px 0px 0px 20px;
-}
-.perro{
-    margin: 0px 0px 0px 20px;
-}
-p{
-    margin:10px;
-}
 
 /*cajas*/
+.espaciado_superior_cajas{
+    margin-top: 5%;
+}
 
 .collar-uno{
     border: 4px solid black;
     background-color: white;
-    margin: 50px 10px 0px 0px;
-    width:380px;
-    height:200px;
+
+    /*margin-top: 50px;*/
+    width:100%;
+    max-width:380px;
+    height:100%;
+    max-height:200px;
 }
 .collar-uno h4{
     margin-top: 30px;
@@ -137,9 +89,12 @@ p{
 .collar-dos{
     border: 4px solid black;
     background-color: white;
-    margin: 50px 10px 0px 0px;
-    width:380px;
-    height:200px;
+
+    /*margin-top: 50px;*/
+    width:100%;
+    max-width:380px;
+    height:100%;
+    max-height:200px;
 }
 .collar-dos h4{
     margin-top: 30px;
@@ -159,9 +114,12 @@ p{
 .collar-tres{
     border: 4px solid black;
     background-color: white;
-    margin: 50px 10px 0px 0px;
-    width:380px;
-    height:200px;
+
+    /*margin-top: 50px;*/
+    width:100%;
+    max-width:380px;
+    height:100%;
+    max-height:200px;
 }
 .collar-tres h4{
     margin-top: 30px;
@@ -181,9 +139,12 @@ p{
 .collar-cuatro{
     border: 4px solid black;
     background-color: white;
-    margin: 50px 10px 0px 0px;
-    width:380px;
-    height:200px;
+
+    /*margin-top: 50px;*/
+    width:100%;
+    max-width:380px;
+    height:100%;
+    max-height:200px;
 }
 .collar-cuatro h4{
     margin-top: 30px;
@@ -203,9 +164,12 @@ p{
 .collar-cinco{
     border: 4px solid black;
     background-color: white;
-    margin: 50px 10px 0px 0px;
-    width:380px;
-    height:200px;
+
+    /*margin-top: 50px;*/
+    width:100%;
+    max-width:380px;
+    height:100%;
+    max-height:200px;
 }
 .collar-cinco h4{
     margin-top: 30px;
@@ -225,9 +189,12 @@ p{
 .collar-seis{
     border: 4px solid black;
     background-color: white;
-    margin: 50px 10px 0px 0px;
-    width:380px;
-    height:200px;
+
+    /*margin-top: 50px;*/
+    width:100%;
+    max-width:380px;
+    height:100%;
+    max-height:200px;
 }
 .collar-seis h4{
     margin-top: 30px;
@@ -247,9 +214,12 @@ p{
 .collar-siete{
     border: 4px solid black;
     background-color: white;
-    margin: 50px 10px 0px 0px;
-    width:380px;
-    height:200px;
+
+    /*margin-top: 50px;*/
+    width:100%;
+    max-width:380px;
+    height:100%;
+    max-height:200px;
 }
 .collar-siete h4{
     margin-top: 30px;
@@ -269,9 +239,12 @@ p{
 .collar-ocho{
     border: 4px solid black;
     background-color: white;
-    margin: 50px 10px 0px 0px;
-    width:380px;
-    height:200px;
+
+    /*margin-top: 50px;*/
+    width:100%;
+    max-width:380px;
+    height:100%;
+    max-height:200px;
 }
 .collar-ocho h4{
     margin-top: 30px;
@@ -291,9 +264,12 @@ p{
 .collar-nueve{
     border: 4px solid black;
     background-color: white;
-    margin: 50px 10px 0px 0px;
-    width:380px;
-    height:200px;
+
+    /*margin-top: 50px;*/
+    width:100%;
+    max-width:380px;
+    height:100%;
+    max-height:200px;
 }
 .collar-nueve h4{
     margin-top: 30px;
@@ -314,31 +290,31 @@ p{
     transition: all 0.1s;
 }
 .collar-uno:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .collar-dos:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .collar-tres:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .collar-cuatro:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .collar-cinco:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .collar-seis:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .collar-siete:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .collar-ocho:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .collar-nueve:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 @media screen and (max-width: 376px){
     .col-xxl-3{
