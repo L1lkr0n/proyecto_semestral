@@ -25,122 +25,39 @@ nav {
     align-items: center;
 }
 
+.container_titulo{
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    /*margin: 40px 0px 20px 450px;*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 h1 {
     display: flex;
     justify-content: center;
 }
 
-img {
+
+
+/*imagenes*/
+
+.imagen_responsive{
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+    max-height: 300px;
     border: 3px solid black;
 }
 
-/*imagenes*/
-.collar {
-    margin-top: 20px;
+.espaciado_inferior_imagenes{
+    margin-bottom: 5%;
 }
 
-.bandana {
-    margin-top: 20px;
-}
-
-.correa {
-    margin-top: 20px;
-}
-
-.rojo {
-    width: 250px;
-    height: 200px;
-}
-
-.blanco {
-    width: 250px;
-    height: 200px;
-}
-
-.cafe {
-    width: 250px;
-    height: 200px;
-}
-
-.collarv {
-    margin-top: 20px;
-}
-
-.correav {
-    margin-top: 20px;
-}
-
-.bandanav {
-    margin-top: 20px;
-}
-
-.vainilla {
-    width: 250px;
-    height: 200px;
-}
-
-.verde {
-    width: 250px;
-    height: 200px;
-}
-
-.rosada {
-    width: 250px;
-    height: 200px;
-}
-
-.collarperro {
-    margin: 20px 0px 0px 20px;
-}
-
-.bandanaperro {
-    margin: 20px 0px 0px 20px;
-}
-
-.correaperro {
-    margin: 20px 0px 0px 20px;
-}
-
-.collargato {
-    margin: 20px 0px 0px 20px;
-}
-
-.bandanagatos {
-    margin: 20px 0px 0px 20px;
-}
-
-.correagatos {
-    margin: 20px 0px 0px 20px;
-}
-
-.collarp {
-    width: 250px;
-    height: 200px;
-}
-
-.bandanap {
-    width: 250px;
-    height: 200px;
-}
-
-.correap {
-    width: 250px;
-}
-
-.collarg {
-    width: 250px;
-    height: 200px;
-}
-
-.bandanag {
-    width: 250px;
-    height: 200px;
-}
-
-.correag {
-    width: 250px;
-    height: 200px;
-}
 
 
 
