@@ -9,7 +9,7 @@
     <link rel="icon" href="img/patas.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/add_newaccesorios.css">
+    <link rel="stylesheet" href="css/add_newaccesorios copy.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 
@@ -49,139 +49,137 @@
       </div>
     </nav>
     <!--formulario-->
-    <div class="formulario">
-      <h1>Agregar</h1>
-      <hr>
-      <form nethod="post">
-        <label class="form-label"><h4>Objeto</h4></label>
-        <div class="radio">
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="Collar" required>
-            <label class="form-check-label" for="Collar">
-              Collar
-            </label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="Bandana" required>
-            <label class="form-check-label" for="Bandana">
-              Bandana
-            </label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="Correa" required>
-            <label class="form-check-label" for="Correa">
-              Correa
-            </label>
-          </div>
-        </div>
-        <hr class="separador">
-        <div class="row">
-          <div class="col">
-            <label class="form-label"><h4>Columna</h4></label>
-            <div class="radio">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="col2" required>
-                <label class="form-check-label" for="col2">
-                  2
-                </label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="col3" required>
-                <label class="form-check-label" for="col3">
-                  3
-                </label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="col4" required>
-                <label class="form-check-label" for="col4">
-                  4
-                </label>
-              </div>
+      <div class="container">
+        <form nethod="post">
+          <label class="form-label"><h4>Objeto</h4></label>
+          <div class="radio">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="Collar" required>
+              <label class="form-check-label" for="Collar">
+                Collar
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="Bandana" required>
+              <label class="form-check-label" for="Bandana">
+                Bandana
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="Correa" required>
+              <label class="form-check-label" for="Correa">
+                Correa
+              </label>
             </div>
           </div>
-          <div class="col">
-            <label class="form-label"><h4>Fila</h4></label>
-            <div class="radio">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="fila1" required>
-                <label class="form-check-label" for="fila1">
-                  1
-                </label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="fila2" required>
-                <label class="form-check-label" for="fila2">
-                  2
-                </label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="fila3" required>
-                <label class="form-check-label" for="fila3">
-                  3
-                </label>
+          <hr class="separador">
+          <div class="row">
+            <div class="col">
+              <label class="form-label"><h4>Columna</h4></label>
+              <div class="radio">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="col2" required>
+                  <label class="form-check-label" for="col2">
+                    2
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="col3" required>
+                  <label class="form-check-label" for="col3">
+                    3
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="col4" required>
+                  <label class="form-check-label" for="col4">
+                    4
+                  </label>
+                </div>
               </div>
             </div>
+            <div class="col">
+              <label class="form-label"><h4>Fila</h4></label>
+              <div class="radio">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="fila1" required>
+                  <label class="form-check-label" for="fila1">
+                    1
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="fila2" required>
+                  <label class="form-check-label" for="fila2">
+                    2
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="fila3" required>
+                  <label class="form-check-label" for="fila3">
+                    3
+                  </label>
+                </div>
+              </div>
+            </div>  
           </div>  
-        </div>  
-        <hr class="separador">
-        <div class="mb-3">
-          <label for="imagen" class="form-label"><h4>Imagen</h4></label>
-          <input class="form-control" type="file" id="imagen">
-        </div>
-        <hr class="separador">
-        <label class="form-label"><h4>Datos</h4></label>
-        <div class="row">
-          <div class="col">
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
-            </div>
-          </div>  
-          <div class="col">
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Color</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Color">
-            </div>
+          <hr class="separador">
+          <div class="mb-3">
+            <label for="imagen" class="form-label"><h4>Imagen</h4></label>
+            <input class="form-control" type="file" id="imagen">
           </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Talla</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Talla">
+          <hr class="separador">
+          <label class="form-label"><h4>Datos</h4></label>
+          <div class="row">
+            <div class="col">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+              </div>
+            </div>  
+            <div class="col">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Color</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Color">
+              </div>
             </div>
           </div>
-          <div class="col">
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Tipo</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tipo">
+          <div class="row">
+            <div class="col">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Talla</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Talla">
+              </div>
+            </div>
+            <div class="col">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Tipo</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tipo">
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Material</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Material">
+          <div class="row">
+            <div class="col">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Material</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Material">
+              </div>
+            </div>
+            <div class="col">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Precio</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Precio">
+              </div>
             </div>
           </div>
-          <div class="col">
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Precio</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Precio">
+          <div class="row">
+            <div class="col">
+              <input type="submit" value="Limpiar">
+            </div>
+            <div class="col">
+              <input type="submit" value="Agregar">
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <input type="submit" value="Limpiar">
-          </div>
-          <div class="col">
-            <input type="submit" value="Agregar">
-          </div>
-        </div>
-      </form>
-    </div>
+        </form>
+      </div>
     <!--formulario-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
