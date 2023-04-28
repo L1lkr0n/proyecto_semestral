@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background: linear-gradient(to right, #0c6269, #49e8f7);
 }
@@ -52,36 +57,27 @@ b{
     color:black;
     background-color:#ffffff;
 }
-.formulario{
-    position: absolute;
-    top: 60%;
+.container{
+    width: 60%;
+    background-color: white;
+    padding: 20px;
+    position:absolute;
     left: 50%;
-    transform: translate(-50%, -50%);
-    /*width: 700px;
-    height: 800px;*/
-    width:100%;
-    max-width:700px;
-    height:100%;
-    max-height:1000px;
-    background: white;
-    border-radius: 10px;
-}
-.formulario h1{
-    text-align: center;
+    top:40%;
+    margin-top: 5%;
+    transform:translate(-50%,-50%);
 }
 .form-label{
     margin-left: 50px;
 }
 .form-control{
-    display: flex;
-    width:200px;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 100%;
+    max-width:800px;
 }
 .radio{
     margin-left: 50px;
 }
-.separador{
+/*.separador{
     width:600px;
     margin-left: 50px;
 }
@@ -105,4 +101,14 @@ input[type="submit"]{
 input[type="submit"]:hover{
     color: #0c6269;
     transition: .5s;
+}*/
+@media only screen and (max-width:600px){
+    .container{
+        width: 90%;
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        padding-bottom: 40px;
+        scroll-padding-top: 200px;
+    }    
 }
