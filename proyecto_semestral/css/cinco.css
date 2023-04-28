@@ -80,6 +80,7 @@ b{
     max-height :80px;
     padding:10px;
     justify-content: center;
+    margin-block-start: auto;
 }
 #petshop{
     border: 5px solid black;
