@@ -57,7 +57,7 @@ b{
     background-color:#ffffff;
 }
 .espaciado_inferior{
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 #box{
     margin-top: 20%;
@@ -81,6 +81,7 @@ b{
     padding:10px;
     justify-content: center;
     margin-block-start: auto;
+    margin-left: 10%;
 }
 #petshop{
     border: 5px solid black;
@@ -118,5 +119,10 @@ col{
     .container{
         width:300px;
         margin-block-start: auto;
+    }
+}
+@media screen and (min-width: 1200px){
+    #petshop{
+        margin-left: 20%;
     }
 }
