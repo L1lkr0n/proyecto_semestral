@@ -5,7 +5,7 @@
     font-family: 'Open Sans';
 }
 body{
-    background: linear-gradient(to right,#7e33c9, #3b79dd, #1b8892);
+    background: linear-gradient(45deg,#7e33c9, #3b79dd, #1b8892);
 }
 <!--navbar-->.me-2 {
     border-radius: 10px;
