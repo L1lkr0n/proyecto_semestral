@@ -5,9 +5,6 @@ body{
 .container{
     margin-top:70px;
 }
-.espaciado_inferior_imagenes{
-    margin-bottom: 5%;
-}
 .imagen{
     justify-content: center;
     /*margin-top: 10px;*/
