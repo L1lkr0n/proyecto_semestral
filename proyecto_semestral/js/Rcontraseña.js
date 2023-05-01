@@ -1,6 +1,4 @@
-const nombre = document.getElementById("v_nombre");
-const correo = document.getElementById("v_gmail");
-const contrasenia = document.getElementById("v_contrasena");
+const email = document.getElementById("v_email");
 const respuesta = document.getElementById("v_respuesta");
 const terminosYcondiciones = document.getElementById("termsAndConditions");
 const form = document.getElementById("form");
@@ -21,20 +19,10 @@ function validacionForm() {
     element.lastElementChild.innerHTML = "";
   });
 
-  if (nombre.value.length < 1 || nombre.value.trim() == "") {
-    mostrarMensajeError("v_nombre", "Ingrese un nombre valido");
+  if (email.value.length < 1 || email.value.trim() == "") {
+    mostrarMensajeError("v_email", "Ingrese un correo valido");
     condicion = false;
   }
-
-  if (correo.value.length < 1 || correo.value.trim() == "") {
-    mostrarMensajeError("v_gmail", "Ingrese un correo valido");
-    condicion = false;
-  }
-
-  if (contrasenia.value.length < 1 || contrasenia.value.trim() == "") {
-    mostrarMensajeError("v_contrasena", "Ingrese una contraseña valida");
-    condicion = false;
-  } 
   
   if (respuesta.value.length < 1 || respuesta.value.trim() == "") {
     mostrarMensajeError("v_respuesta", "Ingrese su respuesta");
@@ -42,11 +30,11 @@ function validacionForm() {
   }
 
   if (!terminosYcondiciones.checked) {
-  mostrarMensajeError("termsAndConditions", "Acepte los terminos y condiciones");
-  condicion = false;
-  } else {
-  mostrarMensajeError("termsAndConditions", "");
-  }
+    mostrarMensajeError("termsAndConditions", "Acepte los terminos y condiciones");
+    condicion = false;
+    } else {
+    mostrarMensajeError("termsAndConditions", "");
+    }
 
   return condicion;
 }
@@ -58,6 +46,5 @@ function mostrarMensajeError(claseInput, mensaje) {
 
 function enviarFormulario() {
   form.reset();
-  form.lastElementChild.innerHTML = "Registrado Correctamente";
-  window.location.href ="http://127.0.0.2:5500/proyecto_semestral/uno.html";
+  form.lastElementChild.innerHTML = "Recuperación exitosa";
 }

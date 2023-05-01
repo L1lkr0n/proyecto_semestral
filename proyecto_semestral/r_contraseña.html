@@ -99,10 +99,11 @@
           </div>
           <div class="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
             <h1 class="font-weight-bold mb-4">Recuperar contraseña</h1>
-            <form>
-              <div class="mb-4">
-                <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
-                <input type="email" class="form-control" placeholder="Ingresa su correo" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <form action="" class="form" id="form">
+              <div class="form-input v_email">
+                <label for="v_email" class="form-label">Correo Electronico</label>
+                <input type="email" class="form-control" placeholder="Ingresa su correo" id="v_email" aria-describedby="emailHelp">
+                <p class="mensajeError"></p>
               </div>
               <div class="mb-3">
                 <label for="disabledSelect" class="form-label">Pregunta secreta de recuperación</label>
@@ -113,19 +114,31 @@
                   <option>¿Cual es su apodo?</option>
                 </select>
               </div>
-              <div class="mb-4">
-                <label for="floatingTextareaDisabled" class="form-label">Respuesta</label>
-                <input type="email" class="form-control" placeholder="Ingrese su respuesta" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <a href="m_contraseña.html"  id="emailHelp" class="form-text text-muted text-decoration-none">¿No recuerdas la respuesta?.</a>
+              <div class="form-input v_respuesta">
+                <label for="v_respuesta" class="form-label">Respuesta</label>
+                <input type="text" class="form-control" placeholder="Ingrese su respuesta" id="v_respuesta" aria-describedby="emailHelp">
+                <p class="mensajeError"></p>
+              </div>
+              <div class="form-termsAndConditions termsAndConditions">
+                <input type="checkbox" id="termsAndConditions">
+                <label for="termsAndConditions">He leído y acepto los </label>
+                <a href="#">Términos y Condiciones</a>
+                <p class="mensajeError"></p>
               </div>
               <button type="submit" class="btn btn-primary w-100">Recuperar contraseña</button>
+              <div class="text-center">
+              <p class="mensajeCorrecto"></p>
+              </div>
+              <div class="text-center">
+              <a href="m_contraseña.html"  id="emailHelp" class="form-text text-muted text-decoration-none">¿No recuerdas la respuesta?.</a>
+              </div>
             </form>
           </div>
       </div>
     </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
-
+    <script src="js/Rcontraseña.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
