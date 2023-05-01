@@ -316,6 +316,9 @@ b{
 .collar-nueve:hover{
     transform: scale(1.1);
 }
+.pd{
+    padding-left: 3%;
+}
 @media screen and (max-width: 376px){
     .col-xxl-3{
         text-align: center;
@@ -327,4 +330,9 @@ b{
     .collar-uno .collar-dos .collar-tres .collar-cuatro .collar-cinco .collar-seis .collar-siete .collar-ocho .collar-nueve{
         width:250px !important;
     } 
+}
+@media only screen and (min-width: 1200px){
+    .collar-uno .collar-dos .collar-tres .collar-cuatro .collar-cinco .collar-seis .collar-siete .collar-ocho .collar-nueve{
+        margin-left: 5%;
+    }
 }
