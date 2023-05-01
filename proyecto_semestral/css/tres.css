@@ -310,6 +310,9 @@ b{
 .bandana-nueve:hover{
     transform: scale(1.1);
 }
+.pd{
+    padding-left: 3%;
+}
 @media screen and (max-width: 376px){
     .col-xxl-3{
         text-align: center;
