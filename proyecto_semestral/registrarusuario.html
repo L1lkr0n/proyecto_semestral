@@ -99,40 +99,54 @@
           </div>
           <div class="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
             <h1 class="font-weight-bold mb-4">Registro de usuario</h1>
-            <form>
-              <div class="mb-4">
-                <label for="exampleInputEmail1" class="form-label">Nombre de usuario </label>
-                <input type="email" class="form-control" placeholder="Ingrese su nombre" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <form action="" class="form" id="form" autocomplete="off">
+              <div class="form-input v_nombre">
+                <label for="v_nombre" class="form-label">Nombre de usuario </label>
+                <input type="text" class="form-control" placeholder="Ingrese su nombre" id="v_nombre"> 
+                <p class="mensajeError"></p>
               </div>
-              <div class="mb-4">
-                <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
-                <input type="email" class="form-control" placeholder="Ingresa su correo" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div class="form-input v_gmail">
+                <label for="v_gmail" class="form-label">Correo Electronico</label>
+                <input type="email" class="form-control" placeholder="Ingresa su correo" id="v_gmail" aria-describedby="emailHelp">
+                <p class="mensajeError"></p>
               </div>
-              <div class="mb-4">
-                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                <input type="password" class="form-control border-0 mb-2" placeholder="Ingresa tu contraseña" id="exampleInputPassword1">
+              <div class="form-input v_contrasena">
+                <label for="v_contrasena" class="form-label">Contraseña</label>
+                <input type="password" class="form-control border-0 mb-2" placeholder="Ingresa tu contraseña" id="v_contrasena">
+                <p class="mensajeError"></p>
               </div>
-              <div class="mb-3">
-                <label for="disabledSelect" class="form-label">Pregunta secreta</label>
-                <select id="disabledSelect" class="form-select">
+              <div class="mb-3 v_pregunta">
+                <label for="v_pregunta" class="form-label">Pregunta secreta</label>
+                <select id="v_pregunta" class="form-select">
                   <option>Selecciona una opción.</option>
                   <option>¿Nombre de su primera mascota?</option>
                   <option>¿Color favorito?</option>
                   <option>¿Cual es su apodo?</option>
                 </select>
+                <p class="mensajeError"></p>
               </div>
-              <div class="mb-4">
-                <label for="exampleInputEmail1" class="form-label">Respuesta</label>
-                <input type="email" class="form-control" placeholder="Ingrese su respuesta" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div class="form-input v_respuesta">
+                <label for="text" class="form-label">Respuesta</label>
+                <input type="text" class="form-control" placeholder="Ingrese su respuesta" id="v_respuesta" aria-describedby="emailHelp">
+                <p class="mensajeError"></p>
+              </div>
+              <div class="form-termsAndConditions termsAndConditions">
+                <input type="checkbox" id="termsAndConditions">
+                <label for="termsAndConditions">He leído y acepto los </label>
+                <a href="#">Términos y Condiciones</a>
+                <p class="mensajeError"></p>
               </div>
               <button type="submit" class="btn btn-primary w-100">Registrarse</button>
+              <center>
+              <p class="mensajeCorrecto"></p>
+              </center>
             </form>
           </div>
       </div>
     </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
-
+    <script src="js/RegistroUsario.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
