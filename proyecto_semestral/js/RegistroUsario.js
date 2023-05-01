@@ -59,4 +59,5 @@ function mostrarMensajeError(claseInput, mensaje) {
 function enviarFormulario() {
   form.reset();
   form.lastElementChild.innerHTML = "Registrado Correctamente";
+  window.location.href ="http://127.0.0.2:5500/proyecto_semestral/uno.html";
 }
