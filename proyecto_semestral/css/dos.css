@@ -64,6 +64,7 @@ b{
 .collar-uno{
     border: 4px solid black;
     background-color: white;
+    border-radius: 20px;
 
     /*margin-top: 50px;*/
     width:100%;
@@ -89,6 +90,7 @@ b{
 .collar-dos{
     border: 4px solid black;
     background-color: white;
+    border-radius: 20px;
 
     /*margin-top: 50px;*/
     width:100%;
@@ -114,6 +116,7 @@ b{
 .collar-tres{
     border: 4px solid black;
     background-color: white;
+    border-radius: 20px;
 
     /*margin-top: 50px;*/
     width:100%;
@@ -139,6 +142,7 @@ b{
 .collar-cuatro{
     border: 4px solid black;
     background-color: white;
+    border-radius: 20px;
 
     /*margin-top: 50px;*/
     width:100%;
@@ -164,6 +168,7 @@ b{
 .collar-cinco{
     border: 4px solid black;
     background-color: white;
+    border-radius: 20px;
 
     /*margin-top: 50px;*/
     width:100%;
@@ -189,6 +194,7 @@ b{
 .collar-seis{
     border: 4px solid black;
     background-color: white;
+    border-radius: 20px;
 
     /*margin-top: 50px;*/
     width:100%;
@@ -214,6 +220,7 @@ b{
 .collar-siete{
     border: 4px solid black;
     background-color: white;
+    border-radius: 20px;
 
     /*margin-top: 50px;*/
     width:100%;
@@ -239,6 +246,7 @@ b{
 .collar-ocho{
     border: 4px solid black;
     background-color: white;
+    border-radius: 20px;
 
     /*margin-top: 50px;*/
     width:100%;
@@ -264,6 +272,7 @@ b{
 .collar-nueve{
     border: 4px solid black;
     background-color: white;
+    border-radius: 20px;
 
     /*margin-top: 50px;*/
     width:100%;
@@ -330,9 +339,4 @@ b{
     .collar-uno .collar-dos .collar-tres .collar-cuatro .collar-cinco .collar-seis .collar-siete .collar-ocho .collar-nueve{
         width:250px !important;
     } 
-}
-@media only screen and (min-width: 1200px){
-    .collar-uno .collar-dos .collar-tres .collar-cuatro .collar-cinco .collar-seis .collar-siete .collar-ocho .collar-nueve{
-        margin-left: 5%;
-    }
 }

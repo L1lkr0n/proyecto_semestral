@@ -101,14 +101,17 @@ b {
     max-height: 334.46px;
     max-width: 200px;
     margin: auto;
-    border: 1px solid #666;
+    border: 1px solid black;
     border-radius: 10px;
     padding: 20px;
     transition: .3s;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
 }
 .contenedor .contenedor-items .item .img-item{
     width: 100%;
     max-height: 158px;
+    border-radius: 10px;
 }
 .contenedor .contenedor-items .item:hover{
     box-shadow: 0 0 10px #666;
