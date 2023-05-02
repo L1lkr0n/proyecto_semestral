@@ -1,54 +1,10 @@
-const objeto = document.querySelectorAll(".form-check");
-
-function validarRadio1(){
-  var s="no";
-for(var i=0;i<document.form1.objetos.length;i++)
-{
-  if(document.fomr1.objetos[i].checked){
-    alert("marco:"+document.form1.objetos[i].value);
-    s="si";
-  }
-}
-if(s=="no"){
-  alert("Debe seleccionar un objeto");
-}
-validarRadio2();
-}
-function validarRadio2(){
-  var s="no";
-for(var i=0;i<document.form2.columnas.length;i++)
-{
-  if(document.form2.columnas[i].checked){
-    alert("marco:"+document.form2.columnas[i].value);
-    s="si";
-  }
-}
-if(s=="no"){
-  alert("Debe seleccionar una columna");
-}
-validarRadio3();
-}
-function validarRadio3(){
-  var s="no";
-for(var i=0;i<document.form3.filas.length;i++)
-{
-  if(document.fomr3.filas[i].checked){
-    alert("marco:"+document.form3.filas[i].value);
-    s="si";
-  }
-}
-if(s=="no"){
-  alert("Debe seleccionar una fila");
-}
-}
-
 const nombre = document.getElementById("v_name");
 const color = document.getElementById("v_color");
 const talla = document.getElementById("v_talla");
 const tipo = document.getElementById("v_tipo");
 const material = document.getElementById("v_material");
 const precio = document.getElementById("v_precio");
-const form = document.getElementById("form5");
+const form = document.getElementById("form");
 const listInputs = document.querySelectorAll(".mb-3");
 
 form.addEventListener("submit", (e) => {

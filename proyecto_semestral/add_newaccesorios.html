@@ -49,9 +49,9 @@
     </nav>
     <!--formulario-->
       <div class="container">
-        <h3 style="text-align: center;">Añadir</h3>
-        <hr class="separador">
-        <form name="form1" action="dropdown.php" onsubmit="return validate()">
+        <form method="post">
+          <h3 style="text-align: center;">Añadir</h3>
+          <hr class="separador">
           <label class="form-label"><h4>Objeto</h4></label>
           <div class="radio" id="v_radiobutton">
             <div class="form-check form-check-inline">
@@ -73,8 +73,6 @@
               </label>
             </div>
           </div>
-        </form>
-        <form name="form2" action="dropdown.php" onsubmit="return validate()">
           <hr class="separador">
           <div class="row">
             <div class="col">
@@ -100,8 +98,6 @@
                 </div>
               </div>
             </div>
-        </form>
-        <form name="form3" action="dropdown.php" onsubmit="return validate()">
             <div class="col">
               <label class="form-label"><h4>Fila</h4></label>
               <div class="radio">
@@ -126,15 +122,11 @@
               </div>
             </div>  
           </div>
-        </form>
-        <form action="" class="form" id="form4" autocomplete="off">
           <hr class="separador">
           <div class="mb-3">
             <label for="imagen" class="form-label"><h4>Imágen</h4></label>
             <input class="form-control" type="file" id="imagen">
           </div>
-        </form>
-        <form action="" class="form" id="form5" autocomplete="off"></form>
           <hr class="separador">
           <label class="form-label"><h4>Datos</h4></label>
           <div class="row">
