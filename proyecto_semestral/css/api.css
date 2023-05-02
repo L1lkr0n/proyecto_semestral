@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right,#9441e7, #4e92ff, #1b8892);
+    justify-content: center;
+    height: 100vh;
+}
+<!--navbar-->.me-2 {
+    border-radius: 10px;
+    width: 300px;
+}
+
+.buscador {
+    margin: 0px 50px 0px 0px;
+}
+
+.btn-outline-succes {
+    border: 3px solid black;
+}
+
+.btn-outline-succes:hover {
+    background-color: #99ccff;
+}
+
+.iconopatas {
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+b {
+    font-size: 30px;
+}
+
+.bi::before {
+    background-size: 5rem 5rem;
+}
+
+.bi-person-fill {
+    font-size: 30px;
+}
+
+.bi-list {
+    font-size: 30px;
+}
+
+.nav-link {
+    margin: 0px 0px 0px 30px;
+}
+
+.dropdown-menu {
+    margin-left: 10px;
+}
+
+.d-flex {
+    margin-right: 30px;
+    width: 500px;
+}
+
+.xxxx:hover {
+    background-color: black;
+    color: #ffffff;
+
+}
+.xxxx {
+    border-color: black;
+    color: black;
+    background-color: #ffffff;
+}
+#map {
+	height: 500px;
+	width: 100%;
+}
+.container{
+	padding-top: 5%;
+}
