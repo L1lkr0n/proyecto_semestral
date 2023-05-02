@@ -48,7 +48,7 @@ const talla = document.getElementById("v_talla");
 const tipo = document.getElementById("v_tipo");
 const material = document.getElementById("v_material");
 const precio = document.getElementById("v_precio");
-const form = document.getElementById("form4");
+const form = document.getElementById("form5");
 const listInputs = document.querySelectorAll(".mb-3");
 
 form.addEventListener("submit", (e) => {
