@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right,#9441e7, #4e92ff, #1b8892);
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background: linear-gradient(to right,#9441e7, #4e92ff, #1b8892);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    /*margin: 40px 0px 20px 450px;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.container_titulo{
+    background-color: rgba(19, 18, 19, 0.774);
+    color: white;
+    border-radius: 10px;
+    /*margin: 40px 0px 20px 450px;*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px solid #ffffff;
+}
+
+h1{
+    text-align: center;
+    color:#fc0505 ;
+    display: flex;
+    justify-content: center;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav span{
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+nav span:hover{
+    color: red;
+}
+header input{
+    padding: 5px 10px;
+    border: none;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+}
+header button{
+    border: none;
+    padding: 7px 10px;
+    border-radius: 30px;
+    border: 2px solid #ccc;
+}
+.container-noticias{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap:30px;
+    padding-bottom: 20px;
+}
+.container-noticias .item{
+    background-color: #eee;
+    max-width: 360px;
+    border:2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+.container-noticias .item:hover{
+    box-shadow: 0 0 10px 5px #ccc;
+}
+.container-noticias .item:hover h2{
+    text-decoration: underline;
+}
+.container-noticias .item .info_item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.container-noticias .item img{
+    width: 100%;
+}
+.container-noticias #btnSiguiente{
+    cursor: pointer;
+}
+.container-noticias #btnSiguiente:hover{
+    color: #fc0505;
+}
+
+/*imagenes*/
+
+.imagen_responsive{
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+    max-height: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.espaciado_inferior_imagenes{
+    margin-bottom: 5%;
+}
+
+
+
+
+<!--navbar-->.me-2 {
+    border-radius: 10px;
+    width: 300px;
+}
+
+.buscador {
+    margin: 0px 50px 0px 0px;
+}
+
+.btn-outline-succes {
+    border: 3px solid black;
+}
+
+.btn-outline-succes:hover {
+    background-color: #99ccff;
+}
+
+.iconopatas {
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+b {
+    font-size: 30px;
+}
+
+.bi::before {
+    background-size: 5rem 5rem;
+}
+
+.bi-person-fill {
+    font-size: 30px;
+}
+
+.bi-list {
+    font-size: 30px;
+}
+
+.nav-link {
+    margin: 0px 0px 0px 30px;
+}
+
+.dropdown-menu {
+    margin-left: 10px;
+}
+
+.d-flex {
+    margin-right: 30px;
+    width: 500px;
+}
+
+.xxxx:hover {
+    background-color: black;
+    color: #ffffff;
+
+}
+
+.xxxx {
+    border-color: black;
+    color: black;
+    background-color: #ffffff;
+}
+
+.container-fluid .row {
+    margin-top: 30px;
+}
+.pd{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+@media screen and (max-width: 376px) {
+    .container {
+        width: 300px;
+    }
+
+    .container .msj {
+        font-size: 20px;
+    }
+
+    .col-md-2 {
+        text-align: center;
+        align-items: center;
+    }
+    body{
+        max-width: 376px;
+    }
+}
+
+.container_titulo{
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    /*margin: 40px 0px 20px 450px;*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px solid #ffffff;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
