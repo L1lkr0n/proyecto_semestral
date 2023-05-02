@@ -1,4 +1,4 @@
-const nombre = document.getElementById("v_name");
+const nombre = document.getElementById("v_nombre");
 const color = document.getElementById("v_color");
 const talla = document.getElementById("v_talla");
 const tipo = document.getElementById("v_tipo");
@@ -23,35 +23,35 @@ function validacionForm() {
   });
 
   if (nombre.value.length < 1 || nombre.value.trim() == "") {
-    alert("v_name", "Ingrese un nombre valido");
+    mostrarMensajeError("v_nombre", "Ingrese un nombre valido");
     condicion = false;
   }
 
   if (color.value.length < 1 || color.value.trim() == "") {
-    alert("v_color", "Ingrese un color valido");
+    mostrarMensajeError("v_color", "Ingrese un color valido");
     condicion = false;
   }
   
   if (talla.value.length < 1 || talla.value.trim() == "") {
-    alert("v_talla", "Ingrese una talla valida");
+    mostrarMensajeError("v_talla", "Ingrese una talla valida");
     condicion = false;
   }
 
   if (tipo.value.length < 1 || tipo.value.trim() == "") {
-    alert("v_tipo", "Ingrese un tipo valido");
+    mostrarMensajeError("v_tipo", "Ingrese un tipo valido");
     condicion = false;
   }
 
   if (material.value.length < 1 || material.value.trim() == "") {
-    alert("v_material", "Ingrese un material valido");
+    mostrarMensajeError("v_material", "Ingrese un material valido");
     condicion = false;
   }
 
   if (precio.value.length < 1 || precio.value.trim() == "") {
-    alert("v_precio", "Ingrese un precio valido");
+    mostrarMensajeError("v_precio", "Ingrese un precio valido");
     condicion = false;
   }else {
-    alert("v_precio", "");
+    mostrarMensajeError("v_precio", "");
   }
 
   return condicion;
@@ -64,5 +64,5 @@ function mostrarMensajeError(claseInput, mensaje) {
 
 function enviarFormulario() {
   form.reset();
-  form.lastElementChild.innerHTML = "Inicio correctamente";
+  form.lastElementChild.innerHTML = "Modificado correctamente";
 }
