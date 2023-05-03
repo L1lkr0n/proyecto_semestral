@@ -1,14 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-	box-sizing: border-box;
-}
-body {
-    background: linear-gradient(to right,#9441e7, #4e92ff, #1b8892);
-    justify-content: center;
-    height: 100vh;
-}
-<!--navbar-->.me-2 {
+
+<!--navbar-->
+.me-2 {
     border-radius: 10px;
     width: 300px;
 }
@@ -69,11 +61,4 @@ b {
     border-color: black;
     color: black;
     background-color: #ffffff;
-}
-#map {
-	height: 500px;
-	width: 100%;
-}
-.container{
-	padding-top: 5%;
 }
